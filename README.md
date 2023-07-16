@@ -21,6 +21,8 @@
     - > conda create -p venv python=3.10 -y
   - Run before start application: -
     - > pip install -r requirements.txt
+  - Run the application
+    - > streamlit run app.py
   - Run for create docker image: -
     - > docker build -t ranjitkundu/car_price_predictor:v1 .
   - Show docker images: -
