@@ -1,2 +1,0 @@
-[2023-06-17 18:06:41,708] [25 root INFO] Ingesion started
-[2023-06-17 18:06:41,726] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\car_price_predict\src\components\data_ingesion.py] line number [27] error message [[Errno 2] No such file or directory: 'data/data.csv']

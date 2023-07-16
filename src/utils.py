@@ -63,7 +63,7 @@ def evaluate_model(processed_input, target, models, params):
         best_model_name = [i for i in reports.columns if reports[i][1] == best_model_score][0]
         best_param = [reports[i][2] for i in reports.columns if reports[i][1] == best_model_score][0]
         report_file = os.path.join('artifacts', 'training_report.csv')
-        reports.to_csv(report_file, index=False)
+        reports.to_csv(report_file)
         print(best_model_name, best_model_score)
         print(best_param)
         logging.info(
